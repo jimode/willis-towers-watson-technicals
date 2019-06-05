@@ -31,8 +31,8 @@ Using WebdriverIO & Cucumber.js
 Manually accept the cookie policy in the browser, in order for the test to run - apologies for that :-(
 There is 5 seconds built into the test for this manual step.
 
-1. A preferred work around would have been to supply the required cookies in the test which.
-2. Open up the iframe to be less restrictive.
+1. A preferred work around would have been to supply the required cookies into the test.
+2. Make the iframe less restrictive.
 
 ## How to run the test
 
