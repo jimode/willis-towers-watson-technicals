@@ -20,6 +20,8 @@ Using WebdriverIO & Cucumber.js
    Normally I would write my test to switch to the frame to access the frame document in order to interact with the elements.
    This iframe is restrictive (please see attached screen shot) and '_denies permission to access the property document on cross-origin object_'
    This makes it difficult to close the cookie modal and would therefore be required to be closed manually for the successful execution of this test.
+   
+   <img src="images/cookie-iframe.png" >
 
 2. Some of my drivers and configuration are due for updates and trouble shooting, hence some unusual server errors occur when using some methods of the WebdriverIO framework.
    I did not have enough time to troubleshoot these issues, however I have implemented a work around which produces some un-necessary error screenshots when executing the tests. These do not however affect the successful execution of the test.
